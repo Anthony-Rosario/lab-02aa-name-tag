@@ -108,28 +108,32 @@ input:hover {
     border-radius: 5px;
     outline: none;
 }
-button.name-button {
-    background-color: white;
-    color: grey;
-    border: grey solid 2px;
-    border-radius: 5px;
-    font-size: .3rem;
-    font-weight: 600;
-    transition: 0.1s;
-    outline: none;
-}
-button.name-button:hover {
-    background-color: black;
-    color: white;
-    border-color: transparent;
-    border-radius: 5px;
-}
 button:active {
     background-color: transparent;
     color: transparent;
     border: transparent solid 2px;
     transition: 1.5s;
 }
+
+.fas {
+    width: 30   px;
+}
+
+
+button.name-button:hover {
+    background-color: black;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+button.greenBtn:hover {
+    background-color:blue;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
 
 button.greenBtn {
     color: green;
@@ -141,18 +145,28 @@ button.greenBtn {
     transition: 0.1s;
     outline: none;
 }
+
+
 button.greenBtn:focus {
-    background-color: #FF6600;    
+    background-color: green;    
     color: white;
     border-color: transparent;
     border-radius: 5px;
 }
-button.greenBtn:hover {
-    background-color:green;
-    color: white;
-    border-color: transparent;
+
+
+
+button.name-button {
+    background-color: white;
+    color: grey;
+    border: grey solid 2px;
     border-radius: 5px;
+    font-size: .3rem;
+    font-weight: 600;
+    transition: 0.1s;
+    outline: none;
 }
+
 button.purpleBtn {
     color: #8000FF;
     border: #8000FF solid 2px;
@@ -163,18 +177,24 @@ button.purpleBtn {
     transition: 0.1s;
     outline: none;
 }
+
+
 button.purpleBtn:focus {
     background-color: #8000FF;    
     color: white;
     border-color: transparent;
     border-radius: 5px;
 }
+
+
 button.purpleBtn:hover {
-    background-color: #8000FF;
+    background-color: black;
     color: white;
     border-color: transparent;
     border-radius: 5px;
 }
+
+
 button.blueBtn {
     color: #0028FF;
     border: #0028FF solid 2px;
@@ -185,14 +205,18 @@ button.blueBtn {
     transition: 0.1s;
     outline: none;
 }
+
+
 button.blueBtn:focus {
     background-color: #0028FF;    
     color: white;
     border-color: transparent;
     border-radius: 5px;
 }
+
+
 button.blueBtn:hover {
-    background-color: #0028FF;
+    background-color: green;
     color: white;
     border-color: transparent;
     border-radius: 5px;

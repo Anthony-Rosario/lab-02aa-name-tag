@@ -22,6 +22,6 @@ blueB.addEventListener('click', () => {
 })
 
 
-purpleBtn.addEventListener('click', () => {
+purpleB.addEventListener('click', () => {
     nameTag.style.background = 'purple';
 })
