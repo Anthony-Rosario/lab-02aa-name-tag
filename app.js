@@ -1,25 +1,27 @@
-const mySpecialButton = document.getElementById('my-special-button');
-const theSection = document.getElementById('my-special-section');
-const theInput = document.getElementById('my-special-input');
+const button = document.getElementById('word-button') 
+const input = document.getElementById('input-section')
+const value1 = document.getElementById('Anthony')
 
-mySpecialButton.addEventListener('click', () => {
-    theSection.textContent = theInput.value;
-    theInput.value = '';
-});
+button.addEventListener('click', () => {
+    value1.textContent = input.value;
+    input.value = '';
+})
+
+const greenB = document.getElementById ('greenBtn');
+const blueB = document.getElementById ('blueBtn');
+const purpleB = document.getElementById ('purpleBtn');
+const nameTag = document.getElementById ('name-tag');
+
+greenB.addEventListener('click', () => {
+    nameTag.style.background = 'green';
+})
 
 
+blueB.addEventListener('click', () => {
+    nameTag.style.background = 'blue';
+})
 
 
-
-
-const blueBtn = document.getElementById('blue');
-blueBtn.addEventListener('click', () => {
-    document.body.style.background = 'blue';
-});
-
-
-const darkgreenBtn = document.getElementById('darkgreen');
-darkgreenBtn.addEventListener('click', () => {
-    document.getElementById('my-special-section').style.background = 'darkgreen';
-});
-
+purpleBtn.addEventListener('click', () => {
+    nameTag.style.background = 'purple';
+})

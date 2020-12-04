@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 300px;
+    background:red;
+    border-color: gray;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+figure {
+    height: 125px;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.7em;
+    font-weight: 700;
+    line-height: 0%;
+    position: relative;
+    top: -5px;
+
+}
+
+h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.9em;
+    font-weight: 700;
+    line-height: 0%;
+    position: relative;
+    top: 15px;
+}
+
+
+h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    line-height: 0%;
+    position: absolute;
+    
+
+}
+
+section {
+    width: 100%;
+    height: 125px;
+    background: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+
+footer {
+    height: 50px;
+
+}
+
+.colors {
+    margin: 20px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+input {
+    border: grey solid 2px;
+    border-radius: 5px;
+    outline: none;
+    margin: 23px;
+}
+
+
+input:hover {
+    border: black solid 2px;
+    border-radius: 5px;
+    outline: none;
+}
+button.name-button {
+    background-color: white;
+    color: grey;
+    border: grey solid 2px;
+    border-radius: 5px;
+    font-size: .3rem;
+    font-weight: 600;
+    transition: 0.1s;
+    outline: none;
+}
+button.name-button:hover {
+    background-color: black;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button:active {
+    background-color: transparent;
+    color: transparent;
+    border: transparent solid 2px;
+    transition: 1.5s;
+}
+
+button.greenBtn {
+    color: green;
+    border: green solid 2px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 0.1s;
+    outline: none;
+}
+button.greenBtn:focus {
+    background-color: #FF6600;    
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.greenBtn:hover {
+    background-color:green;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.purpleBtn {
+    color: #8000FF;
+    border: #8000FF solid 2px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 0.1s;
+    outline: none;
+}
+button.purpleBtn:focus {
+    background-color: #8000FF;    
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.purpleBtn:hover {
+    background-color: #8000FF;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.blueBtn {
+    color: #0028FF;
+    border: #0028FF solid 2px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 0.1s;
+    outline: none;
+}
+button.blueBtn:focus {
+    background-color: #0028FF;    
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.blueBtn:hover {
+    background-color: #0028FF;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
